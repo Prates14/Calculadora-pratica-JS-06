@@ -1,0 +1,26 @@
+body {
+    background-color: #8f8bb3;
+    font: normal 15pt Arial;
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 10px;
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
