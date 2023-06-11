@@ -24,3 +24,19 @@ body {
     font-style: italic;
 }
 
+table, input {
+    width: 100%;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.btn {
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-igual {
+    background-color: #f0f0f0;
+    font-size: 23px;
+}
