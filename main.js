@@ -1,7 +1,15 @@
 function criaCalculadora() {
     return {
+        display: document.querySelector('.display')
+
         inicia() {
-            alert('olá! Mundo!')
+           this.botaoClicado() 
+        }
+
+        botaoClicado() {
+            document.addEventListener('click', e => {
+                let elemento = e.target
+            })
         }
     }
 }
