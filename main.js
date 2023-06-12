@@ -19,6 +19,9 @@ function criaCalculadora() {
                 if(elemento.classList.contains('btn-delete')){
                     this.deleteNumero()
                 }
+                if(elemento.classList.contains('btn-igual')){
+                    this.resultado()
+                }
             })
         },
 
@@ -32,7 +35,16 @@ function criaCalculadora() {
 
         deleteNumero(){
             this.display.value = this.display.value.slice(0, -1)
-        }
+        },
+
+        resultado(){
+            try {
+                this.display.value = eval(this.display.value)
+            } catch (error) {
+                alert('Resultado inválido')
+                this.limparDisplay()
+            }
+        }  
     }
 }
 
