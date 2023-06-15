@@ -43,6 +43,7 @@ function criaCalculadora() {
             } catch (error) {
                 alert('Resultado inválido')
                 this.limparDisplay()
+                return
             }
         }  
     }
